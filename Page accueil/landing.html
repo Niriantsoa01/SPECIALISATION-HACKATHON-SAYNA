@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-anatra</title>
+    <link rel="stylesheet" href="./assets/Bootstrap/assets/dist/css/bootstrap.min.css">
+    <script src="./assets/Bootstrap/assets/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./css/landing.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/fullresponsive.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/fa/css/font-awesome.min.css"/>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark py-4">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="assets/images/e-anatra.png" alt="Logo E-anatra" width="100" height="100">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#services">Nos services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="../Universite.html/universite.html">Formation</a>
+                  </li>
+
+                  <h1>Le numérique pour tous</h1>
+
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#programme">Programme</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#contact">Nous contacter</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav> 
+          <!--texte de bienvenue-->
+          <div class="text-center bienvenue">
+            <h1 class="big-title text-center">Commencez ici</h1>
+          </div>
+          <div class="text-center input-content">
+            <input type="text" placeholder="Je suis une entreprise/etudiant...">
+                <i class="fa fa-search" id="search-icon"></i>
+          </div>
+    </header>
+
+    <!--Avant propos-->  
+    <section class="section-avant-propos">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 text-white">
+                    <h2>Les clés du numérique, pour un avenir plus connecté</h2>
+                    <p class="mt-5">
+                    Notre mission : rendre le numérique
+                    accessible à tous, étudiants et
+                    entreprises, pour développer les
+                    compétences, innover, et réussir dans
+                    un monde connecté.
+                    </p>
+                    <button type="button"> 
+                        <a href="#mission">Savoir plus</a>
+                    </button>
+                </div>
+
+                <div class="col-sm-6 mt-5">
+                    <div class="hex-image rounded"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--section pour les entreprises-->
+    <section class="section-entreprise mt-5" id="search">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 mt-5">
+                    <div class="image-content">
+                    <img src="./assets/images/entreprise.png" alt="homme">
+                    </div>
+                </div>
+                <div class="col-sm-6 text-white">
+                    <h2>Pour les entreprises</h2>
+                    <p class="mt-5">
+                        Nous accompagnons les entreprises dans leur transition
+                        numérique, en fournissant des solutions adaptées à leurs
+                        besoins spécifiques. Qu'il s'agisse de formations en ligne,
+                        de conseil en stratégie digitale, ou d'outils pour optimiser
+                        leur productivité, nous aidons chaque entreprise à
+                        exploiter pleinement les opportunités du numérique, peu
+                        importe leur taille ou leur secteur d'activité.
+                    </p>
+                    <button type="button"> 
+                        <a href="#mission">Savoir plus</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--section pour les etudiants-->
+    <section class="section-entreprise mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 mt-5">
+                    <div class="image-content">
+                        <img src="./assets/images/et.png" alt="etudiant" id="img">
+                    </div>
+                </div>
+                <div class="col-sm-6 text-white">
+                    <h2>Pour les étudiants</h2>
+                    <p class="mt-5">
+                        Nous mettons à disposition des ressources et des formations
+                        pour permettre aux étudiants de se préparer aux métiers de
+                        demain que pour leur parcours universitaires. Que ce soit à
+                        travers des cours en ligne, des ateliers pratiques, ou des
+                        programmes de mentorat, nous visons à équiper la nouvelle
+                        génération avec les compétences nécessaires pour réussir
+                        dans un environnement de travail de plus en plus digitalisé.
+                    </p>
+                    <button type="button"> 
+                        <a href="#mission">Savoir plus</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--section nous choisir-->
+    <section class="section-nous-choisir mt-5">
+        <h1>Pourquoi nous choisir ?</h1>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-4">
+                    <div class="content text-white">
+                    <button class="span"><span>1</span></button>
+                    <h2>Fiabilité</h2>
+                    <p>
+                        Nous vous offrons une plateforme d&apos;apprentissage fonctionnelle avec de
+                        cours gratuits et fiables.
+                    </p>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="content text-white">
+                        <button class="span"><span>2</span></button>
+                        <h2>Gratuité</h2>
+                    <p>
+                        Nous offrons à nos clients une acces gratuit pour notre plateforme ainsi
+                        que de support  de cours pour apprendre les bases.
+                    </p>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="content text-white">
+                        <button class="span"><span>3</span></button>
+                        <h2>Simplicité</h2>
+                    <p>
+                        Nous partageons des astuces simples et
+                        nécessaires pour nos clients.
+                    </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--section à propos de nous-->
+    <section class="apropos mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 mt-5">
+                    <img src="./assets/images/nous.png" alt="a propos">
+                </div>
+                <div class="col-sm-6 text-white">
+                    <h2>QUI SOMMES-NOUS ?</h2>
+                    <p>Nous sommes E-ANATRA, étudiants issu de Talent4Startup et apprenants chez SAYNA. 
+                    Nous avons crée une plateforme qui rend l&apos;apprentissage de l&apos;informatique accessible à tous. 
+                    Nous répondons aussi aux besoins de formations adaptées pour ceux souhaitent apprendre mais 
+                    ne savent pas par où commencer, en dehors du cadre universitaire.
+                    </p>
+                </div>
+            </div>
+        </div> 
+    </section>
+
+     <!-- SECTION MISSIONS & OBJECTIFS START -->
+    <section class="mission mt-5 py-5 text-white" id="mission">
+        <h1 class="mission-title">Missions & Objectifs</h1>
+
+        <!--Premier mission-->
+        <div class="mission-container">
+            <div class="container">
+            <div class="row">
+                <div class="col-sm-2">
+                    <div class="container-number mt-4">
+                        <span class="span-number">1</span>
+                    </div>
+                </div>
+                <div class="col-sm-10">
+                    <p id="p1">
+                        Notre mission principale est d&apos;aider des personnes à apprendre 
+                        la bonne base nécessaire de l&apos;informatique notamment pour la programmation informatique
+                        , le design et l&apos;informatique bureautique.
+                    </p>
+                </div>
+            </div>
+            </div>
+        </div>
+        
+        <!--Seconde mission-->
+        <div class="mission-container mt-4">
+            <div class="container">
+            <div class="row">
+                <div class="col-sm-10">
+                    <p id="p2">
+                        Nous offrons aussi des aides d&apos;orientation pour les nouveaux bacheliers ou pour ceux qui 
+                        souhaitent poursuivre des études universitaires 
+                        à bien choisir les universités ou les centres de formations adaptées à leurs 
+                        choix de parcours. 
+                    </p>
+                </div>
+                <div class="col-sm-2">  
+                    <div class="container-number mt-4">
+                        <span class="span-number">2</span>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        
+        <!--Troisième mission-->
+        
+        <div class="mission-container mt-4">
+            <div class="container">
+            <div class="row">
+                <div class="col-sm-2">
+                    <div class="container-number mt-4">
+                        <span class="span-number">3</span>
+                    </div>
+                </div>
+                <div class="col-sm-10">
+                    <p id="p3">
+                        Notre mission principale est d&apos;aider des personnes à apprendre 
+                        la bonne base nécessaire de l&apos;informatique notamment pour la programmation informatique
+                        , le design et l&apos;informatique bureautique.
+                    </p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+        <!--Section equipe-->
+        <section class="section-equipe mt-5 text-white">
+        <h1 class="mission-title">Nos équipes</h1>
+
+        <!--Equipe-->
+        <div class="blog_container">
+            <div class="layout_padding2-top">
+              <div class="carousel-wrap ">
+                <div class="owl-carousel">
+                  <div class="item">
+                    <div class="box">
+                      <div class="img-box">
+                        <img src="./assets/images/zah-remove.png" alt="">
+                      </div>
+                      <div class="name-box">
+                        <h2>
+                          NIRIANTSOA
+                        </h2>
+                      </div>
+                      <div class="detail-box">
+                        <h3>
+                          LEAD PROJECT
+                        </h3>
+                        <h3>
+                          DEVELOPPEUR
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="box">
+                      <div class="img-box">
+                        <img src="./assets/images/v.png" alt="">
+                      </div>
+                      <div class="name-box">
+                        <h2>
+                          MIRANA
+                        </h2>
+                      </div>
+                      <div class="detail-box">
+                        <h3>
+                          CO.MARKETING
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="box">
+                      <div class="img-box">
+                        <img src="./assets/images/l.png" alt="">
+                      </div>
+                      <div class="name-box">
+                        <h2>LARRYSON JOEL</h2>
+                      </div>
+                      <div class="detail-box">
+                        <h3>DEVELOPPEUR</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="box">
+                      <div class="img-box">
+                        <img src="./assets/images/v.png" alt="">
+                      </div>
+                      <div class="date-box">
+                        <h2>HARENA</h2>
+                      </div>
+                      <div class="detail-box">
+                        <h3>
+                          DESIGNER
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="box">
+                      <div class="img-box">
+                        <img src="./assets/images/l.png" alt="">
+                      </div>
+                      <div class="date-box">
+                        <h2>STEPHANE</h2>
+                      </div>
+                      <div class="detail-box">
+                        <h3>
+                          DEVELOPPEUR
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Control-->
+          <div class="owl-nav">
+            <button type="button" role="presentation" class="owl-prev">
+                <i class="fa fa-angle-left"></i>
+            </button>
+          </div>
+        </section>
+
+       <!--Section services--> 
+        <section class="section-services mt-5 text-white" id="services">
+            <h1 class="mission-title">Nos services</h1>
+            <div class="container mt-3">
+                <div class="row">
+
+                    <div class="col-sm-4">
+                        <div class="service-box">
+                            <h2>COURS DE BASE</h2>
+                            <img src="./assets/images/cours.png" alt="cours">
+                            <p class="mt-5">
+                                On travaille pour vous fournir de cours pour 
+                                apprendre la bonne base nécessaire de l&apos;informatique .
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm-4">
+                        <div class="service-box">
+                            <h2>ACCOMPAGNEMENT</h2>
+                            <img src="./assets/images/acc.png" alt="accompagnement">
+                            <p class="mt-5">
+                                Ce n&apos;est pas tout, on vous offre aussi un accompagnement 
+                                pour répondre à vos questions en cas de souci.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="service-box">
+                            <h2>GUIDE UNIVERSITAIRE</h2>
+                            <img src="./assets/images/guide.png" alt="guide">
+                            <p class="mt-5">
+                                Pour ceux qui souhaitent poursuivre 
+                                des etudes universitaires,on vous propose aussi des 
+                                solutions pour cela.
+                            </p>
+                        </div>
+                    </div>
+        </section>
+
+        <!--Section programmes-->
+        <section class="section-programme mt-5 text-white" id="programme"> 
+            <h1 class="mission-title mt-5">PROGRAMMES</h1>
+            <div class="container-programme">
+                <ul>
+                    <li id="defaultOpen" class="ligne">Programmation</li>
+                    <li id="design-list">Design</li>
+                    <li>Bureautique</li>
+                </ul>
+
+                <!--CONTENU PROGRAMME-->
+
+                <!--CONTENU PROGRAMMATION-->
+                <div id="programmation-content" class="programme-content">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-sm-6">
+                               <h2>Programmation</h2>
+                               <div class="video-content mt-5">
+                                <video width="100%" height="auto" controls>
+                                   <source src="./assets/video/y2mate.com - HTMLCSS 1  introduction_v144P.mp4" type="video/mp4">
+                                   Your browser does not support the video tag.
+                                </video>
+                               </div> 
+
+                               <div class="download-cours">
+                                 <a href="./assets/cours/HTMLCSSJS.pdf" target="_blank" download="#">
+                                     Telecharger le cours
+                                 </a>
+                               </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <p>
+                                    Dans cette section, vous allez apprendre la base pour la création de 
+                                    site internet notamment pour les langages HTML-CSS. <br>
+                                    On va vous aider à compre,dre comment les sites 
+                                    internet fonctionnent et comment faire pour construire à l&apos;aide 
+                                    de langage de  base. <br>
+                                    <br>
+                                    Pour mieux vous aider à comprendre, 
+                                    veuillez consulter ci-dessous :
+                                </p>
+                                <button type="button">
+                                    <a href="https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3">Voir plus</a>
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!--CONTENU DESIGN-->
+                <div id="design-content" class="programme-content">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-sm-6">
+                               <h2>Design</h2>
+                               <div class="video-content mt-5">
+                                <video width="100%" height="auto" controls>
+                                   <source src="./assets/video/y2mate.com - Apprendre Photoshop en 5 MINUTES  Tutoriel débutant_v240P.mp4" type="video/mp4">
+                                   Your browser does not support the video tag.
+                                </video>
+                               </div> 
+
+                               <div class="download-cours">
+                                 <a href="./assets/cours/livre_photoshop.pdf" target="_blank" download="#">
+                                     Telecharger le cours
+                                 </a>
+                               </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <p>
+                                    Pendant ce programme, on va vous aider à explorer le monde de design . Vous allez comprendre la base pour la création en design notamment 
+                                    pour l&apos;utilisation des outils de Design. <br>
+                                    <br>
+                                    Curieux d&apos;approfondir encore plus ?
+                                    Clique sur <br> le bouton ci-dessous :
+                                </p>
+                                <button type="button">
+                                    <a href="https://www.adobe.com/fr/learn/photoshop">Voir plus</a>
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!--CONTENU BUREAUTIQUE-->
+                <div id="bureautique-content" class="programme-content">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-sm-6">
+                               <h2>Bureautique</h2>
+
+                               <div class="video-content mt-5">
+                                <video width="100%" height="auto" controls>
+                                   <source src="./assets/video/y2mate.com - Comment utiliser WORD   Tutoriel pour bien débuter avec Microsoft Word_v240P.mp4" type="video/mp4">
+                                   Your browser does not support the video tag.
+                                </video>
+                               </div> 
+
+                               <div class="download-cours">
+                                 <a href="./assets/cours/catalogue_formation_bureautique_mars.pdf" target="_blank" download="#">
+                                     Telecharger le cours
+                                 </a>
+                               </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <p>
+                                    Dans cette section, on va vous aider à apprendre la base 
+                                    de l&apos;informatique bureautique notamment pour WORD, EXCEL mais aussi 
+                                    POWERPOINT.
+                                    Vous allez comprendre tout au long de votre apprentissage 
+                                    l&apos;utilité de ces outils et ce qu&apos;ils peuvent vous offrir. <br>
+                                    <br>
+                                    Clique sur le bouton ci-dessous pour voir plus de cours :
+                                </p>
+                                <button type="button">
+                                    <a href="https://support.microsoft.com/en-us/office/word-for-windows-training-7bcd85e6-2c3d-4c3c-a2a5-5ed8847eae73">Voir plus</a>
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Section nous ecrire-->
+        <section class="section-ecrire" id="contact">
+            <h1 class="contact-title text-white">NOUS ECRIRE</h1>
+            <!--contact-->
+            <div class="container">
+                <div class="row">
+                <div class="col-sm-6">
+                    <h2>Des questions ? <br>
+                    Contactez-nous
+                    </h2>
+                    <i class="fa fa-phone icon"></i>
+                    <span class="span-contact text-white">+261345768961</span> 
+                    <br>
+                    <i class="fa fa-envelope icon1"></i>
+                    <span class="span-contact text-white mt-5">e.anatra.team@gmail.com</span>
+
+                    <div class="scan">
+                        <h2>.SCANNEZ MOI</h2>
+                        <img src="./assets/images/qrcode.png" alt="qrcode" width="200" height="200">
+                    </div>
+                </div>
+                    
+                    <!--formulaire -->
+
+                    <div class="col-sm-6">
+
+                        <form action="/Page accueil/landing.html" method="POST">
+                            <div class="container">
+                                <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                    <label for="exampleFormControlInput1">Nom</label>
+                                    <input type="text" class="form-control" id="nom" name="nom" placeholder="Votre nom">
+                                    </div>  
+                                </div>
+                                
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                    <label for="exampleFormControlInput2">Prénom</label>
+                                    <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Votre prénom">
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+
+                            <div class="form-group">
+                                <label for="FormControlInput3" class="label">Phone</label>
+                                <input type="text" class="form-control" id="phone" name="phone" value="+261">
+                            </div>
+                            <div class="form-group">
+                                <label for="FormControlInput4" class="domaine">Domaine souhaité</label>
+                                <select class="form-select form-control-lg" aria-label="Default select example" id="domaine" name="domaine">
+                                    <option selected>Sélectionné votre domaine</option>
+                                    <option value="1">DEVELOPPEMENT</option>
+                                    <option value="2">DESIGN</option>
+                                    <option value="3">BUREAUTIQUE</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="FormControlTextarea1" class="label">Message</label>
+                                <textarea class="form-control" id="message" name="message" placeholder="Ecrire votre message ici..."></textarea>
+                            </div>
+                            <button type="submit" id="submit" class="btn btn-primary">
+                                <a href="">ENVOYER</a>
+                            </button>
+                        </form>
+
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+
+        <!--footer-->
+
+        <footer>
+            <footer id="contact"  class="contact">
+                <div class="container">
+                    <div class="footer-top">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <div class="single-footer-widget">
+                                    <div class="footer-logo">
+                                        <a href="#">E-ANATRA</a>
+                                    </div>
+                                    <h2>
+                                        LE NUMERIQUE POUR TOUS
+                                    </h2>
+                                    <div class="footer-contact">
+                                        <p><i class="fa fa-envelope"></i> e-anatra.team@gmail.com</p>
+                                        <p><i class="fa fa-phone"></i>+261 345 768 961</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="single-footer-widget">
+                                    <h2>Programmes</h2>
+                                    <ul>
+                                        <li><a href="#programme">Programmation</a></li>
+                                        <li><a href="#programme">Design</a></li>
+                                        <li><a href="#programme">Bureautique</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="single-footer-widget">
+                                    <h2>Services</h2>
+                                            <ul>
+                                                <li><a href="#services">Cours de base</a></li>
+                                                <li><a href="#services">accompagnement</a></li>
+                                                <li><a href="#services">Guide universitaire</a></li>
+                                            </ul>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="single-footer-widget">
+                                    <h2>Contact</h2>
+                                            <ul>
+                                                <li><a href="#">Accueil</a></li>
+                                                <li><a href="#programme">Programmes</a></li>
+                                                <li><a href="#contact">Contact</a></li>
+                                            </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-3">
+                                <div class="single-footer-widget">
+                                    <h2>news letter</h2>
+                                    <div class="hm-foot-email">
+                                        <div class="foot-email-box">
+                                            <input type="text" class="form-control" placeholder="Add Email">
+                                        </div><!--/.foot-email-box-->
+                                        <div class="foot-email-subscribe">
+                                            <span><i class="fa fa-arrow-right"></i></span>
+                                        </div><!--/.foot-email-icon-->
+                                    </div><!--/.hm-foot-email-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-copyright">
+                                <p>
+                                    &copy; Copyright. Designed & Developed by <a href="#">E-anatra</a>.
+                                </p><!--/p-->
+                    </div><!--/.footer-copyright-->
+                </div><!--/.container-->
+    
+                
+                
+            </footer><!--/.contact-->
+            <!--contact end-->
+        
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+
+    <script src="js/bootstrap.js"></script>
+  
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  
+    <script src="js/custom.js"></script>
+
+    <script type="text/javascript" src="./js/programme.js"></script>
+
+    <script type="text/javascript" src="./js/contact.js"></script>
+
+    <script type="text/javascript" src="./js/menu.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-anatra/Université</title>
+    <link rel="stylesheet" href="./assets/Bootstrap/assets/dist/css/bootstrap.min.css">
+    <script src="./assets/Bootstrap/assets/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./css/universite.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/fullresponsive.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/fa/css/font-awesome.min.css"/>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark py-4">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="assets/images/e-anatra.png" alt="Logo E-anatra" width="100" height="100">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="../Page accueil/landing.html">Nos services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Formation</a>
+                  </li>
+
+                  <h1>Le numérique pour tous</h1>
+
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="../Page accueil/landing.html">Programme</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="../Page accueil/landing.html">Nous contacter</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav> 
+
+        <!--texte de bienvenue-->
+        <div class="text-center bienvenue">
+            <h1 class="big-title text-center">Commencez ici</h1>
+        </div>
+        <div class="text-center input-content">
+            <input type="text" placeholder="Je suis une entreprise/etudiant...">
+            <i class="fa fa-search"></i>
+        </div>
+
+    </header>
+    
+    <!--Section contenu-->
+    <section class="section-avant-propos">
+            <h2>Quel parcours souhaiteriez-vous vous specialiser ?</h2>
+            <form>
+                <select class="form-select form-control-lg" aria-label="Default select " id="inputSelect">
+                <option selected>Sélectionné votre domaine</option>
+                <option value="1">DEVELOPPEMENT & PROGRAMMATION</option>
+                <option value="2">DESIGN</option>
+                <option value="3">BUREAUTIQUE</option>
+                </select>
+                <button type="button" id="university"> 
+                    <a href="">Voir les Universités</a>
+                </button>
+                <button type="button" id="cfp"> 
+                  <a href="">Voir les CFP</a>
+              </button>
+            </form>   
+    </section>
+
+    <!--Université contenu-->
+    <section class="section-universite" id="developpement-university">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="./assets/images/esti.png" class="card-img-top" alt="Université 1">
+                        <div class="card-body">
+                            <h5 class="card-title">ESTI</h5>
+                            <p class="card-text">
+                            École Supérieure des Technologies de l&apos;Information (ESTI) est 
+                            un établissement d'enseignement supérieur privé reconnu par l'État, 
+                            qui délivre des formations dans le domaine des technologies de l'information.
+                            </p>
+                            <button type="button" class="btn">
+                            <a href="https://esti.mg">Voir plus</a>
+                            </button>
+                        </div>
+                      </div>
+                  </div>
+                  
+                  <div class="col-sm-4">
+                    <div class="card">
+                        <img src="./assets/images/itu.png" class="card-img-top" alt="Université 2">
+                        <div class="card-body">
+                            <h5 class="card-title">ITU</h5>
+                            <p class="card-text">
+                            IT University est un établissement d&apos;enseignement supérieur 
+                            privé spécialisé en informatique, créé en 2011, pour 
+                            répondre aux  besoins du secteur professionnel en matière de nouvelles technologies.
+                            </p>
+                            <button type="button" class="btn">
+                            <a href="https://www.ituniversity-mg.com/page/">Voir plus</a>
+                            </button>
+                        </div>
+                      </div>
+                  </div> 
+                  
+                  <div class="col-sm-4">
+                    <div class="card">
+                        <img src="./assets/images/eni.png" class="card-img mt-0" alt="Université 3" width="200" height="290">
+                        <div class="card-body">
+                            <h5 class="card-title">ENI</h5>
+                            <p class="card-text">
+                            ENI, un établissement d&apos;enseignement supérieur 
+                            rattaché académiquement l'enseignement de l'informatique 
+                            et à la formation de professionnels compétents et innovants.
+                            </p>
+                            <button type="button" class="btn">
+                              <a href="https://eni.mg/">Voir plus</a>
+                            </button>
+                        </div>
+                      </div>
+                  </div>  
+            </div>
+        </div>
+    </section>
+
+    <section class="section-design" id="design-university">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-sm-5 col-md-4">
+              <div class="card design-card">
+                <img src="./assets/images/med.png" class="card-img mt-0" alt="Université 3" width="200" height="290">
+                <div class="card-body">
+                    <h5 class="card-title">EMEDIA</h5>
+                    <p class="card-text">
+                    Créée en 2011, l&apos;E-Media est actuellement un établissement de 
+                    référence et acteur incontournable dans le domaine de l&apos;éducation et de la 
+                    formation à Madagascar et en Afrique.
+                    </p>
+                    <button type="button" class="btn">
+                      <a href="http://www.e-media-madagascar.com/">Voir plus</a>
+                    </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-5 col-md-4">
+              <div class="card design-card">
+                  <img src="./assets/images/itu.png" class="card-img-top" alt="Université 2">
+                  <div class="card-body">
+                      <h5 class="card-title">ITU</h5>
+                      <p class="card-text">
+                      IT University est un établissement d&apos;enseignement supérieur 
+                      privé spécialisé en informatique, créé en 2011, pour 
+                      répondre aux  besoins du secteur professionnel en matière de nouvelles technologies.
+                      </p>
+                      <button type="button" class="btn">
+                      <a href="https://www.ituniversity-mg.com/page/">Voir plus</a>
+                      </button>
+                  </div>
+                </div>
+            </div>
+
+          </div>
+        </div>
+    </section>
+
+    <!----CFP DEV-->
+
+    <section class="section-universite" id="developpement-cfp">
+      <div class="container">
+          <div class="row">
+
+
+            <div class="col-sm-4">
+              <div class="card">
+                  <img src="./assets/images/sayna.png" class="card-img-top" alt="Université 2">
+                  <div class="card-body">
+                      <h5 class="card-title">SAYNA</h5>
+                      <p class="card-text">
+                      La plateforme SAYNA est un formidable outil,permettant de peaufiner 
+                      ses connaissanceset d&apos;apprendre en continue, les fondamentaux du 
+                      numérique et de nouveaux métiers.
+                      </p>
+                      <button type="button" class="btn">
+                        <a href="https://learn.sayna.io">Voir plus</a>
+                      </button>
+                  </div>
+                </div>
+            </div> 
+
+              <div class="col-sm-4">
+                  <div class="card">
+                      <img src="./assets/images/esti.png" class="card-img-top" alt="Université 1">
+                      <div class="card-body">
+                          <h5 class="card-title">ESTI</h5>
+                          <p class="card-text">
+                          École Supérieure des Technologies de l&apos;Information (ESTI) est 
+                          un établissement d'enseignement supérieur privé reconnu par l'État, 
+                          qui délivre des formations dans le domaine des technologies de l'information.
+                          </p>
+                          <button type="button" class="btn">
+                            <a href="https://esti.mg">Voir plus</a>
+                          </button>
+                      </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-4">
+                  <div class="card">
+                      <img src="./assets/images/nirinfo.png" class="card-img mt-0" alt="Université 3" width="200" height="290">
+                      <div class="card-body">
+                          <h5 class="card-title">NIR'INFO</h5>
+                          <p class="card-text">
+                          Nir&apos;Info est une Entreprise de Service du Numérique (ESN) implantée 
+                          à Madagascar depuis 2015. Elle se spécialise surtout dans le domaine 
+                          du web, de l&apos;informatique et de la formation professionnelle.
+                          </p>
+                          <button type="button" class="btn">
+                            <a href="https://nir-info.mg/">Voir plus</a>
+                          </button>
+                      </div>
+                    </div>
+                </div>  
+          </div>
+      </div>
+  </section>
+
+  <!--CFP DESIGN -->
+
+  <section class="section-universite" id="design-cfp">
+    <div class="container">
+        <div class="row">
+
+
+          <div class="col-sm-4">
+            <div class="card">
+                <img src="./assets/images/sayna.png" class="card-img" alt="Université 2">
+                <div class="card-body">
+                    <h5 class="card-title">SAYNA</h5>
+                    <p class="card-text">
+                    La plateforme SAYNA est un formidable outil,permettant de peaufiner 
+                    ses connaissanceset d&apos;apprendre en continue, les fondamentaux du 
+                    numérique et de nouveaux métiers.
+                    </p>
+                    <button type="button" class="btn">
+                      <a href="https://learn.sayna.io">Voir plus</a>
+                    </button>
+                </div>
+              </div>
+          </div> 
+
+            
+              
+              <div class="col-sm-4">
+                <div class="card">
+                    <img src="./assets/images/nirinfo.png" class="card-img mt-0" alt="Université 3" width="200" height="290">
+                    <div class="card-body">
+                        <h5 class="card-title">NIR'INFO</h5>
+                        <p class="card-text">
+                        Nir&apos;Info est une Entreprise de Service du Numérique (ESN) implantée 
+                        à Madagascar depuis 2015. Elle se spécialise surtout dans le domaine 
+                        du web, de l&apos;informatique et de la formation professionnelle.
+                        </p>
+                        <button type="button" class="btn">
+                          <a href="https://nir-info.mg/">Voir plus</a>
+                        </button>
+                    </div>
+                  </div>
+              </div>  
+
+              <div class="col-sm-4">
+                <div class="card">
+                    <img src="./assets/images/med.png" class="card-img mt-0" alt="Université 3" width="200" height="290">
+                    <div class="card-body">
+                        <h5 class="card-title">EMEDIA</h5>
+                        <p class="card-text">
+                          Créée en 2011, l&apos;E-Media est actuellement un établissement de 
+                          référence et acteur incontournable dans le domaine de l&apos;éducation et de la 
+                          formation à Madagascar et en Afrique.
+                        </p>
+                        <button type="button" class="btn">
+                      <a href="http://www.e-media-madagascar.com/">Voir plus</a>
+                        </button>
+                    </div>
+                  </div>
+              </div>  
+
+        </div>
+    </div>
+</section>
+
+<!--Button Revenir à l'accueil-->
+
+<div class="back-to-home">
+    <a href="../Page accueil/landing.html">
+    <button>Revenir à l'accueil</button>
+    <i class="fa fa-angle-left"></i>
+    </a>
+</div>
+
+<!--JQuery-->
+
+<!--Footer-->
+
+<footer>
+  <footer id="contact"  class="contact">
+      <div class="container">
+          <div class="footer-top">
+              <div class="row">
+                  <div class="col-sm-3">
+                      <div class="single-footer-widget">
+                          <div class="footer-logo">
+                              <a href="#">E-ANATRA</a>
+                          </div>
+                          <h2>
+                              LE NUMERIQUE POUR TOUS
+                          </h2>
+                          <div class="footer-contact">
+                              <p><i class="fa fa-envelope"></i> e-anatra.team@gmail.com</p>
+                              <p><i class="fa fa-phone"></i>+261 345 768 961</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-sm-3">
+                      <div class="single-footer-widget">
+                          <h2>Programmes</h2>
+                          <ul>
+                              <li><a href="#programme">Programmation</a></li>
+                              <li><a href="#programme">Design</a></li>
+                              <li><a href="#programme">Bureautique</a></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col-sm-3">
+                      <div class="single-footer-widget">
+                          <h2>Services</h2>
+                              <ul>
+                                <li><a href="#services">Cours de base</a></li>
+                                <li><a href="#services">accompagnement</a></li>
+                                <li><a href="#services">Guide universitaire</a></li>
+                              </ul>
+                      </div>
+                  </div>
+                  <div class="col-sm-3">
+                      <div class="single-footer-widget">
+                          <h2>Contact</h2>
+                                  <ul>
+                                      <li><a href="#">Accueil</a></li>
+                                      <li><a href="#programme">Programmes</a></li>
+                                      <li><a href="#contact">Contact</a></li>
+                                  </ul>
+                      </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3">
+                      <div class="single-footer-widget">
+                          <h2>news letter</h2>
+                          <div class="hm-foot-email">
+                              <div class="foot-email-box">
+                                  <input type="text" class="form-control" placeholder="Add Email">
+                              </div><!--/.foot-email-box-->
+                              <div class="foot-email-subscribe">
+                                  <span><i class="fa fa-arrow-right"></i></span>
+                              </div><!--/.foot-email-icon-->
+                          </div><!--/.hm-foot-email-->
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="footer-copyright">
+              <p>
+                &copy; Copyright. Designed & Developed by <a href="#">E-anatra</a>.
+              </p><!--/p-->
+          </div><!--/.footer-copyright-->
+      </div><!--/.container-->
+  </footer><!--/.contact-->
+  <!--contact end-->
+
+  <script type="text/javascript" src="./js/university.js"></script>
+</body>
+</html>

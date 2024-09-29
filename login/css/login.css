@@ -1,0 +1,93 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url('../assets/bg-log.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: 750px;
+    width: 100%;
+}
+
+.navbar-brand {
+    margin: 0 30px;
+}
+
+nav ul {
+    font-size: 20px;
+}
+
+.nav-item a {
+    margin: 30px 30px;
+}
+
+.navbar-nav h1 {
+    color: #fff;
+    margin: auto 90px;
+    text-transform: uppercase;
+    max-width: 400px;
+    text-align: center;
+}
+
+
+.form-content {
+    margin: 0 auto;
+    width: 400px;
+    height: 530px;
+    padding: 0px 40px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.form-content h2 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+form {
+    display: block;
+    margin-top: -30px;
+}
+
+form label {
+    color: black;
+    padding-top: 30px;
+}
+
+form input {
+    margin-top: 10px;
+}
+
+form button {
+    width: 70%;
+    padding: 10px;
+    background-color: #050a30;
+    border: 2px solid;
+    border-radius: 50px;
+    color: #fff;
+    transform: translateX(20%);
+    font-weight: bolder;
+}
+
+form button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#submit {
+    display: none;
+}
+
+span {
+    font-weight: bolder;
+}
+
+
+
+

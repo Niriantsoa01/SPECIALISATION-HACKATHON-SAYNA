@@ -1,0 +1,75 @@
+@media (max-width:768px) {
+
+    .navbar {
+        position: relative;
+    }
+
+    .navbar-brand {
+        margin-top: 30px;
+    }
+
+    .navbar-nav h1 {
+        position: absolute;
+        bottom: -50px;
+    }
+
+    .nav-item a {
+        margin: 5px;
+        text-align: center;
+    }
+
+    .bienvenue {
+        margin-top: 30%;
+    }
+
+    .big-title {
+        font-size: 34px;
+    }
+
+    input {
+        margin-top: 10px;
+        padding: auto 0px;
+        width: 90%;
+    }
+
+    .section-avant-propos {
+        margin-top: 160%;
+    }
+
+    .section-avant-propos h2 {
+        margin-top: 50px;
+        letter-spacing: 2px;
+        padding: 20px;
+        font-weight: bold;
+        color: #fff;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+    form {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .card {
+        max-width: 400px;
+        margin-bottom: 30px;
+        padding: 20px;
+    }
+
+
+    .design-card {
+        margin: 0 auto;
+    }
+
+    footer ul {
+        flex-direction: column;
+    }
+      footer li a{
+        margin-right: 50px;
+    }
+
+    .single-footer-widget h2 {
+        margin-left: 50px;
+    }
+}
